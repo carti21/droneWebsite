@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: LeagueMono-Medium
+font link: https://www.tylerfinck.com/shop/league-mono/
+font author: Tyler Finck
+font author site: https://www.tylerfinck.com/
+
+
+icon designer: Franc
+icon designer link: /franc.d
+        
+{"bg":"#437085","icon":"#ECEBE7","font":"#ECEBE7","slogan":"#fffffb"}
+      

@@ -1,0 +1,133 @@
+html {
+    font-size: 62.5%;
+    background-color: rgba(67,112,133,1);
+    color: rgba(249,235,224,1);
+    font-family: 'Spectral SC', serif;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/*////////////////////////
+Header
+//////////////////////////*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    min-width: 6.25rem;
+    height: 15.625rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a,
+span {
+    font-size: 2.3125rem;
+    text-decoration: none;
+}
+/*////////////////////////
+Slider Gallery
+//////////////////////////*/
+
+/*////////////////////////
+Gallery
+//////////////////////////*/
+.whiteBackground {
+    background-color: rgba(249,235,224,1);
+    color: rgba(67,112,133,1);
+}
+
+.gallerySection,
+.servicesSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15rem;
+    gap: 3.125rem;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textContainer h2 {
+    font-size: 5rem;
+    font-weight: 200;
+    border-bottom: 3px solid rgba(252,159,91,1);
+}
+
+.textContainer p {
+    margin-top: -1rem;
+    font-size: 2.75rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.galleryIMG {
+    min-width: 60rem;
+    height: 45rem;
+}
+
+/*////////////////////////
+Services
+//////////////////////////*/
+
+.servicesSection {
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem;
+}
+
+.sectionTitle {
+    font-size: 7rem;
+    font-weight: 200;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid rgba(252,159,91,1);
+}
+
+.service1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.service2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.textContainer h3 {
+    font-size: 4rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+/*////////////////////////
+Contact
+//////////////////////////*/
+.contactSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*////////////////////////
+Footer
+//////////////////////////*/
