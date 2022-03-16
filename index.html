@@ -18,13 +18,13 @@
             <!--<h1>Aerial Adventures</h1>-->
             <nav>
                 <ul>
-                    <li><a>Gallery</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                     <span>-</span>
-                    <li><a>Equipment</a></li>
+                    <li><a href="#">Equipment</a></li>
                     <span>-</span>
-                    <li><a>Services</a></li>
+                    <li><a href="#">Services</a></li>
                     <span>-</span>
-                    <li><a>Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -35,45 +35,49 @@
             </section>
 
             <section class="gallerySection container whiteBackground">
+                <a name="gallery"></a>
                 <img class="galleryIMG" src="assets/images/boat.JPG">
                 <div class="textContainer">
                     <h2>GALLERY</h2>
                     <p>View our previous artwork. Select prints available for purchase</p>
                 </div>
             </section>
+
             <section class="servicesSection container">
-                <h2 class="sectionTitle">Services</h2>
+                <h2 class="sectionTitle servicesTitle">Services</h2>
                 <div class="service1">
-                    <img class="galleryIMG" src="assets/images/boat.JPG">
-                    <div class="textContainer">
+                    <img class="serviceIMG" src="assets/images/boat.JPG">
+                    <div class="service textContainer">
                         <h3>Residential Real Estate Photography</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim optio perspiciatis maxime corrupti ipsum nulla repellendus voluptate quaerat qui distinctio!</p>
                     </div>
                 </div>
                 <div class="service2">
-                    <img class="galleryIMG" src="assets/images/boat.JPG">
-                    <div class="textContainer">
+                    <img class="serviceIMG" src="assets/images/boat.JPG">
+                    <div class="service textContainer">
                         <h3>Commercial Real Estate Photography</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim optio perspiciatis maxime corrupti ipsum nulla repellendus voluptate quaerat qui distinctio!</p>
                     </div>
                 </div>
                 <div class="service1">
-                    <img class="galleryIMG" src="assets/images/boat.JPG">
-                    <div class="textContainer">
+                    <img class="serviceIMG" src="assets/images/boat.JPG">
+                    <div class="service textContainer">
                         <h3>Drone Inspection Services</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim optio perspiciatis maxime corrupti ipsum nulla repellendus voluptate quaerat qui distinctio!</p>
                     </div>
                 </div>
                 <div class="service2">
-                    <img class="galleryIMG" src="assets/images/boat.JPG">
-                    <div class="textContainer">
+                    <img class="serviceIMG" src="assets/images/boat.JPG">
+                    <div class="service textContainer">
                         <h3>Data Capture & Analysis</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim optio perspiciatis maxime corrupti ipsum nulla repellendus voluptate quaerat qui distinctio!</p>
                     </div>
                 </div>
             </section>
+
             <section class="contactSection whiteBackground">
-                <h2 class="sectionTitle">Contact</h2>
+                <a name="contact"></a>
+                <h2 class="sectionTitle contactTitle">Contact</h2>
                 <form>
                     <div>
                         <label for="first-name">*First Name<input type="text" name="first-name" required></label>
@@ -82,17 +86,25 @@
                         <label for="phone-number">*Phone Number<input type="tel" name="phone-number" required></label>
                         <label for="company-name">Company Name<input type="text" name="website-name"></label>
                         <label for="company-website">Company Website<input type="url" name="website"></label>
-                        <input type="submit" name="submit" value="Send">
+                        <input class="submit" type="submit" name="submit" value="Send">
                     </div>
                     <textarea name="comment">What we can assist you with?</textarea>                
                 </form>
             </section>
 
         </main>
+
         <footer>
             <img class="logo" src="assets/Aerial Adventures-logo/cover.png">
-
+            <div class="footerInfo">
+                <ul>
+                    <li>New York, NY</li>
+                    <li><a href="tel:+13123520958">(312) 352-0958</a></li>
+                    <li class="#"><a href="mailto:#">info@aerialadventures.com</a></li>
+                </ul>
+            </div>
         </footer>
+
     </body>
 
     <script src="main.js"></script>

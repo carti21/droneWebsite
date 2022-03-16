@@ -5,9 +5,16 @@ html {
     font-family: 'Spectral SC', serif;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 a:hover {
     cursor: pointer;
+    color: rgba(252,159,91,1);
 }
+
 
 /*////////////////////////
 Header
@@ -40,6 +47,7 @@ span {
     font-size: 2.3125rem;
     text-decoration: none;
 }
+
 /*////////////////////////
 Slider Gallery
 //////////////////////////*/
@@ -103,6 +111,23 @@ Services
     border-bottom: 3px solid rgba(252,159,91,1);
 }
 
+.servicesTitle{
+    margin: 0 0 2rem 0;
+
+}
+
+.serviceIMG {
+    min-width: 50rem;
+    height: 35rem;
+}
+
+.service1,
+.service2 {
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
 .service1 {
     display: flex;
     flex-direction: row-reverse;
@@ -113,11 +138,20 @@ Services
     flex-direction: row;
 }
 
+.service.textContainer {
+    width: 45rem;
+}
+
 .textContainer h3 {
     font-size: 4rem;
     font-weight: 200;
     text-align: center;
 }
+
+.service.textContainer p {
+    font-size: 2.25rem;
+}
+
 
 /*////////////////////////
 Contact
@@ -127,6 +161,10 @@ Contact
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.contactTitle {
+margin-top: 10rem;
 }
 
 form div,
@@ -151,12 +189,56 @@ label {
 input {
     width: 45rem;
     height: 5rem;
+    border: none;
+    border-radius: 1.25rem;
+    outline: none;
+    padding-left: 1rem;
 }
 
 textarea {
     font-size: 2rem;
     width: 50rem;
+    border: none;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    color: rgba(67,112,133,1);
+    resize: none;
+    outline: none;
 }
+
+.submit {
+    background-color: rgba(67,112,133,1);
+    cursor: pointer;
+    color: rgba(249,235,224,1);
+    font-size: 2rem;
+}
+
+.submit:hover {
+    color: rgba(67,112,133,1);
+    background-color: rgba(249,235,224,1);
+    border: 0.3rem solid rgba(67,112,133,1);
+}
+
 /*////////////////////////
 Footer
 //////////////////////////*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20rem;
+}
+
+.footerInfo ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .8rem;
+    margin-right: 5.5rem;
+}
+
+.footerInfo ul li {
+    font-size: 2.3125rem;
+}
