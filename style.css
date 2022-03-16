@@ -126,8 +126,37 @@ Contact
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
+form div,
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    margin-bottom: 10rem;
+}
+
+label {
+    font-size: 2rem;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+input {
+    width: 45rem;
+    height: 5rem;
+}
+
+textarea {
+    font-size: 2rem;
+    width: 50rem;
+}
 /*////////////////////////
 Footer
 //////////////////////////*/
