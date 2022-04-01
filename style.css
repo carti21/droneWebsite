@@ -117,7 +117,6 @@ Services
 
 .servicesTitle{
     margin: 0 0 2rem 0;
-
 }
 
 .serviceIMG {
@@ -272,6 +271,10 @@ Media Queries
     align-items: center;
     }
 
+    .servicesTitle{
+        margin: 7rem;
+    }
+
     .textContainer {
         padding-bottom: 3rem;
     }
@@ -285,16 +288,35 @@ Media Queries
         font-size: 3rem;
     }
 
+    .servicesSection {
+        padding: 0rem;
+        gap: 0rem;
+    }
+
     .service1,
     .service2 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0rem;
     }
 
     .sectionTitle {
         font-size: 5rem;
         padding-bottom: 0rem;
+    }
+
+    .servicesSection {
+        padding: 0rem;
+    }
+
+    .textContainer h3 {
+        margin-top: -7rem;
+    }
+    
+    .service.textContainer p {
+        margin-top: -2rem;
+        margin-bottom: 8rem;
     }
 
     .contactSection {
@@ -308,15 +330,59 @@ Media Queries
         display: flex;
         flex-direction: column-reverse;
     }
+    
+    .contactTitle {
+    margin-top: 10rem;
+    }
+    
+    form div,
+    label{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form {
+        display: flex;
+        gap: 3rem;
+        margin-bottom: 10rem;
+    }
+    
+    label {
+        font-size: 2.5rem;
+        gap: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    input {
+        width: 50rem;
+        height: 7rem;
+    }
+    
+    textarea {
+        font-size: 2.5rem;
+        height: 37rem;
+    }
+    
+    .submit {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        width: 51.5rem;
+    }
 
     footer {
         flex-direction: column;
+        height: 20rem;
     }
     
     .footerInfo ul{
         align-items: center;
+        justify-content: center;
         gap: 1rem;
         margin-right: 0rem;
+    }
+    
+    .footerInfo ul li {
+        font-size: 2.5rem;
     }
 }
 
