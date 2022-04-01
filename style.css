@@ -267,40 +267,34 @@ Media Queries
     }
 
     .gallerySection {
-    padding-top: 7rem;
+    padding: 3rem;
     flex-direction: column;
     align-items: center;
     }
 
     .textContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        padding-bottom: 3rem;
     }
 
     .textContainer h2 {
         font-size: 5rem;
-        font-weight: 200;
-        border-bottom: 3px solid rgba(252,159,91,1);
     }
 
     .textContainer p {
-        margin-top: -1rem;
-        font-size: 3.75rem;
-        text-align: center;
-        font-weight: 100;
+        margin-top: 0rem;
+        font-size: 3rem;
     }
 
-    .galleryIMG {
-        min-width: 60rem;
-        height: 45rem;
-    }
     .service1,
     .service2 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .sectionTitle {
+        font-size: 5rem;
+        padding-bottom: 0rem;
     }
 
     .contactSection {

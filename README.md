@@ -4,6 +4,9 @@ Drone photography portfolio/company website.
 Built with HTML5, CSS3, and JavaScript ES6.
 
 
+## Links
+- [Live Site](https://johnmichaeld.github.io/droneWebsite/)
+
 ## Resources 
 - [Slider](https://www.youtube.com/watch?v=KcdBOoK3Pfw)
 - [form](https://www.w3schools.com/howto/howto_css_contact_form.asp)
