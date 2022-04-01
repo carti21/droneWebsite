@@ -52,6 +52,10 @@ span {
 Slider Gallery
 //////////////////////////*/
 
+
+
+
+
 /*////////////////////////
 Gallery
 //////////////////////////*/
@@ -95,11 +99,6 @@ Gallery
 }
 
 /*////////////////////////]
-
-
-
-
-
 Services
 //////////////////////////*/
 
@@ -246,4 +245,146 @@ footer {
 
 .footerInfo ul li {
     font-size: 2.3125rem;
+}
+
+
+/*////////////////////////
+Media Queries
+////////////////////////*/
+
+
+/* Mobile Phone */
+@media (max-width: 480px){
+    html{
+        font-size: 40.5%;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .gallerySection {
+    padding-top: 7rem;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .textContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .textContainer h2 {
+        font-size: 5rem;
+        font-weight: 200;
+        border-bottom: 3px solid rgba(252,159,91,1);
+    }
+
+    .textContainer p {
+        margin-top: -1rem;
+        font-size: 3.75rem;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .galleryIMG {
+        min-width: 60rem;
+        height: 45rem;
+    }
+    .service1,
+    .service2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
+    .footerInfo ul{
+        align-items: center;
+        gap: 1rem;
+        margin-right: 0rem;
+    }
+}
+
+/* Tablet */
+@media(min-width: 481px) and (max-width: 768px){
+    html{
+        font-size: 50.5%;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .gallerySection {
+    padding-top: 0rem;
+    flex-direction: column;
+    align-items: center;
+}
+    .service1,
+    .service2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footerInfo ul{
+        align-items: center;
+        gap: 1rem;
+        margin-right: 0rem;
+    }
+}
+
+/* Small screens, laptops */
+@media(min-width: 769px) and (max-width: 1024px){
+    
+}
+
+/* Desktops, large screens */
+@media(min-width: 1025px) and (max-width: 1200px){
+    
+}
+
+/* Large desktops and TV's */
+@media(min-width: 1201px){
+    
 }
