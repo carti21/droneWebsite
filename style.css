@@ -389,26 +389,72 @@ Media Queries
 /* Tablet */
 @media(min-width: 481px) and (max-width: 768px){
     html{
-        font-size: 50.5%;
+        font-size: 47.5%;
     }
 
     ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
+        gap: 1.5rem;
         padding: 0;
     }
 
     .gallerySection {
-    padding-top: 0rem;
+    padding: 7rem 3rem 3rem 3rem;
     flex-direction: column;
     align-items: center;
-}
+    }
+
+    .servicesTitle{
+        margin: 9rem 7rem 7rem 7rem;
+    }
+
+    .textContainer {
+        padding-bottom: 3rem;
+    }
+
+    .textContainer h2 {
+        font-size: 6rem;
+    }
+
+    .textContainer p {
+        margin-top: 0rem;
+        font-size: 3.5rem;
+    }
+
+    .servicesSection {
+        padding: 0rem;
+        gap: 0rem;
+    }
+
     .service1,
     .service2 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0rem;
+    }
+
+    .sectionTitle {
+        font-size: 6rem;
+        padding-bottom: 0rem;
+    }
+
+    .servicesSection {
+        padding: 0rem;
+    }
+
+    .serviceIMG{
+        min-width: 60rem;
+        min-height: 46rem;
+    }
+
+    .textContainer h3 {
+        margin-top: -5rem;
+    }
+    
+    .service.textContainer p {
+        margin-top: -1rem;
+        margin-bottom: 8rem;
+        min-width:  60rem;
     }
 
     .contactSection {
@@ -422,20 +468,183 @@ Media Queries
         display: flex;
         flex-direction: column-reverse;
     }
+    
+    .contactTitle {
+    margin-top: 10rem;
+    }
+    
+    form div,
+    label{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form {
+        display: flex;
+        gap: 3rem;
+        margin-bottom: 10rem;
+    }
+    
+    label {
+        font-size: 2.5rem;
+        gap: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    input {
+        width: 50rem;
+        height: 7rem;
+    }
+    
+    textarea {
+        font-size: 2.5rem;
+        height: 37rem;
+    }
+    
+    .submit {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        width: 51.5rem;
+    }
 
     footer {
         flex-direction: column;
+        height: 20rem;
     }
-
+    
     .footerInfo ul{
         align-items: center;
+        justify-content: center;
         gap: 1rem;
         margin-right: 0rem;
+    }
+    
+    .footerInfo ul li {
+        font-size: 2.5rem;
     }
 }
 
 /* Small screens, laptops */
 @media(min-width: 769px) and (max-width: 1024px){
+    html{
+        font-size: 55.5%;
+    }
+
+    ul {
+        gap: 1.5rem;
+        padding: 0;
+    }
+
+    .gallerySection {
+    padding: 7rem 3rem 3rem 3rem;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .servicesTitle{
+        margin: 9rem 7rem 7rem 7rem;
+    }
+
+    .textContainer {
+        padding-bottom: 3rem;
+    }
+
+    .textContainer h2 {
+        font-size: 6rem;
+    }
+
+    .textContainer p {
+        margin-top: 0rem;
+        font-size: 3.5rem;
+    }
+
+    .servicesSection {
+        padding: 0rem;
+        gap: 0rem;
+    }
+
+    .service1,
+    .service2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem;
+    }
+
+    .sectionTitle {
+        font-size: 6rem;
+        padding-bottom: 0rem;
+    }
+
+    .servicesSection {
+        padding: 0rem;
+    }
+
+    .serviceIMG{
+        min-width: 60rem;
+        min-height: 46rem;
+    }
+
+    .textContainer h3 {
+        margin-top: -5rem;
+    }
+    
+    .service.textContainer p {
+        margin-top: -1rem;
+        margin-bottom: 8rem;
+        min-width:  60rem;
+    }
+
+    .contactSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .contactTitle {
+    margin-top: 10rem;
+    }
+    
+    form div,
+    label{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form {
+        display: flex;
+        gap: 3rem;
+        margin-bottom: 10rem;
+    }
+    
+    label {
+        font-size: 2.5rem;
+        gap: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    input {
+        width: 50rem;
+        height: 7rem;
+    }
+    
+    textarea {
+        font-size: 2.5rem;
+        height: 37rem;
+    }
+    
+    .submit {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        width: 51.5rem;
+    }
+
     
 }
 
