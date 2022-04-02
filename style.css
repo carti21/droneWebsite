@@ -582,7 +582,7 @@ Media Queries
 
     .serviceIMG{
         min-width: 60rem;
-        min-height: 46rem;
+        height: 45rem;
     }
 
     .textContainer h3 {
